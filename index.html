@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Legal Services</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Font Awesome for Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <!-- Custom CSS -->
+    <link href="styles.css" rel="stylesheet">
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&family=Montserrat:wght@600&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <!-- Navigation Bar -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="#">Legal Services</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="#services">Services</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#team">Our Team</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#testimonials">Testimonials</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#contact">Contact</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <header class="hero-section d-flex align-items-center justify-content-center">
+        <div class="hero-overlay text-center">
+            <h1>Expert Legal Services</h1>
+            <p>Your trusted partner in legal matters.</p>
+            <a href="#services" class="btn btn-warning btn-lg mt-3">Learn More</a>
+        </div>
+    </header>
+
+    <!-- Services Section -->
+    <section id="services" class="services-section container my-5">
+        <h2 class="text-center mb-4">Our Services</h2>
+        <div class="row">
+            <div class="col-md-4 col-sm-12 mb-4">
+                <div class="service-card text-center p-4">
+                    <i class="fas fa-gavel fa-3x text-primary"></i>
+                    <h5>Consultation</h5>
+                    <p>Professional legal advice for individuals and businesses.</p>
+                </div>
+            </div>
+            <div class="col-md-4 col-sm-12 mb-4">
+                <div class="service-card text-center p-4">
+                    <i class="fas fa-file-contract fa-3x text-success"></i>
+                    <h5>Contract Review</h5>
+                    <p>Thorough review of contracts to ensure your interests are protected.</p>
+                </div>
+            </div>
+            <div class="col-md-4 col-sm-12 mb-4">
+                <div class="service-card text-center p-4">
+                    <i class="fas fa-user-shield fa-3x text-danger"></i>
+                    <h5>Legal Representation</h5>
+                    <p>Expert representation in legal matters and disputes.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Team Section -->
+    <section id="team" class="team-section container my-5">
+        <h2 class="text-center mb-4">Our Team</h2>
+        <div class="row">
+            <div class="col-md-6 col-sm-12 text-center">
+                <div class="team-member">
+                    <img src="https://tse3.mm.bing.net/th?id=OIP.J7TdBtTwdlH0gTby51TMrwHaE8&pid=Api&P=0&h=180" class="rounded-circle mb-2" alt="Zenil Rayma">
+                    <h5>Zenil Rayma</h5>
+                    <p>Special Lawyer with expertise in civil and criminal law.</p>
+                </div>
+            </div>
+            <div class="col-md-6 col-sm-12 text-center">
+                <div class="team-member">
+                    <img src="https://tse4.mm.bing.net/th?id=OIP.ELCXqkkh65BmPklOBIkhaAAAAA&pid=Api&P=0&h=180" class="rounded-circle mb-2" alt="Keeshan Pitroda">
+                    <h5>Keeshan Pitroda</h5>
+                    <p>Special Lawyer specializing in corporate law and litigation.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section id="testimonials" class="testimonials-section container my-5">
+        <h2 class="text-center mb-4">Testimonials</h2>
+        <div class="row">
+            <div class="col-md-4 col-sm-12 text-center mb-4">
+                <blockquote class="blockquote">
+                    <p class="text-success">"Great legal services! They helped me through a tough time."</p>
+                    <footer class="blockquote-footer">Client A</footer>
+                </blockquote>
+            </div>
+            <div class="col-md-4 col-sm-12 text-center mb-4">
+                <blockquote class="blockquote">
+                    <p class="text-warning">"Professional and reliable. Highly recommend!"</p>
+                    <footer class="blockquote-footer">Client B</footer>
+                </blockquote>
+            </div>
+            <div class="col-md-4 col-sm-12 text-center mb-4">
+                <blockquote class="blockquote">
+                    <p class="text-danger">"Expert advice and support throughout the process."</p>
+                    <footer class="blockquote-footer">Client C</footer>
+                </blockquote>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact-section container my-5">
+        <h2 class="text-center mb-4">Contact Us</h2>
+        <form>
+            <div class="form-group">
+                <label for="name">Name</label>
+                <input type="text" class="form-control" id="name" required>
+            </div>
+            <div class="form-group">
+                <label for="email">Email</label>
+                <input type="email" class="form-control" id="email" required>
+            </div>
+            <div class="form-group">
+                <label for="message">Message</label>
+                <textarea class="form-control" id="message" rows="3" required></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary">Send Message</button>
+        </form>
+    </section>
+
+    <!-- Footer -->
+    <footer class="text-center py-4">
+        <p>&copy; 2024 Legal Services | All Rights Reserved</p>
+    </footer>
+
+    <!-- Bootstrap JS, jQuery -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <!-- Custom JS -->
+    <script src="script.js"></script>
+</body>
+</html>
